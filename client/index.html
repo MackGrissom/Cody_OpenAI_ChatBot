@@ -3,16 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Macondo&family=Press+Start+2P&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Codex - Your AI</title>
+    <title>Cody - Your Friendly Coding AI</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="app">
+      <header>
+<nav> 
+  <ul class="nav">
+
+<a href="https://github.com/MackGrissom"> <li class="nav-item"> Check out My Github</li> </a>
+<a href="https://beta.openai.com/overview"><li class="nav-item"> Learn more about OpenAI</li></a>
+
+  </ul>
+</nav>
+
+      </header>
       <div id="chat_container"></div>
 
       <form>
-        <textarea name="prompt" rows="1" cols="1" placeholder="Ask codex..."></textarea>
+        <textarea name="prompt" rows="1" cols="1" placeholder="Ask the AI anything about coding.."></textarea>
         <button type="submit"><img src="assets/send.svg" alt="send" />
       </form>
     </div>
