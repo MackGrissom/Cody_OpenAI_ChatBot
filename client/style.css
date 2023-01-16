@@ -191,6 +191,7 @@ form img {
 .nav-item {
 
   padding-bottom: 15px;
+  background-color: none;
 }
 @tailwind base;
 @tailwind components;
@@ -207,7 +208,7 @@ a {
 
 a:hover {
   box-shadow: inset 1000px 0 0 0 #09ff00;
-  color: black;
+  color: #09ff00;
 }
 
 ul {
