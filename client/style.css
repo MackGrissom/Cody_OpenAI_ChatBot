@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: 'Macondo', cursive;
   font-family: 'Press Start 2P', cursive;
+  background-color: #000
+  
 }
 
 
@@ -13,8 +15,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-image: url(/home/mackgrissom/code/MackGrissom/open_ai_codex/client/assets/bg.jpg);
-  
+
   background-size:;
 background-position: center, center;
 background-repeat: none;
@@ -233,7 +234,7 @@ ul {
   font-size: 75%;
   padding-top: 20px;
   width:100vw;
-  background-color: #000;
+  background-color: ;
 }
 
 .container-header {
