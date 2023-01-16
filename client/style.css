@@ -50,7 +50,7 @@ body {
 #chat_container {
   flex: 1;
   width: 100%;
-  height: 50vh!important;
+  height: 50vh;
   overflow-y: scroll;
 
   display: flex;
@@ -279,7 +279,7 @@ ul {
     width: 100vw!important;
   }
   .description {
-    display: none!important;
+    font-size: x-small;
   }
   #app > div > div > form {
     width: 100vw!important;
@@ -294,8 +294,16 @@ ul {
  .message{
     width: 100vw!important;
     background-color: #000;
+    color: #7e57c2;
   }
   #chat_container > div.wrapper.ai {
     background-color: #000;
   }
+  #chat_container {
+    height: 20vh;
+  }
+ form {
+  position: sticky;
+  top: 92vh;
+ }
   }
